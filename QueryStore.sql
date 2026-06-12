@@ -1,4 +1,3 @@
-   
  -- query store never captured the ddl like alter, drop table etc
  -- query store only user databases
 
@@ -49,6 +48,4 @@
     ON q.query_id = p.query_id
     WHERE q.query_id = 123;
 
-
     select * from sys.query_store_plan
-
