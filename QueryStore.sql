@@ -12,7 +12,7 @@
 
      ALL is 2016/2017 
 
-     All means its capture the every thing adhoc, store procedure , from application team work load etc
+     All means its capture the every thing adhoc, store procedure, from application team work load etc
 
      Auto means it dont capture adhoc queries like select * from tablename 
      (if this query run more than 29 times then it capture) 
@@ -37,7 +37,6 @@
        
     select * from sys.query_store_query_text
 
-
 --3.Get execution plan for a query 
 
     SELECT
@@ -51,4 +50,3 @@
 
 
     select * from sys.query_store_plan
-
