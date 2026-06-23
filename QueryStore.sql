@@ -28,14 +28,14 @@
     CLEANUP_POLICY = (STALE_QUERY_THRESHOLD_DAYS = 30),
     DATA_FLUSH_INTERVAL_SECONDS = 900,
     INTERVAL_LENGTH_MINUTES = 60,
-    MAX_STORAGE_SIZE_MB = 2048
+    MAX_STORAGE_SIZE_MB = 2048;
     );
     --note: This keeps Query Store data for 30 days before automatic cleanup.
 
 
  --2. how to see queries in query store
        
-    select * from sys.query_store_query_text
+    select * from sys.query_store_query_text;
 
 
 --3.Get execution plan for a query 
@@ -50,7 +50,7 @@
     WHERE q.query_id = 123;
 
 
-    select * from sys.query_store_plan
+    select * from sys.query_store_plan;
 
 --4.Check All Forced Plans
 
