@@ -28,7 +28,7 @@
     CLEANUP_POLICY = (STALE_QUERY_THRESHOLD_DAYS = 30),
     DATA_FLUSH_INTERVAL_SECONDS = 900,
     INTERVAL_LENGTH_MINUTES = 60,
-    MAX_STORAGE_SIZE_MB = 2048;
+    MAX_STORAGE_SIZE_MB = 2048
     );
     --note: This keeps Query Store data for 30 days before automatic cleanup.
 
